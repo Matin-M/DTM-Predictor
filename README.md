@@ -1,19 +1,29 @@
 # Stock Direction Prediction
 
-World’s form of communication (news outlets) have evolved rapidly. Information can spread like wildfire with the advent of the internet. This project aims to predict the direction a stock is going to go backed on news data.
+Stock Direction Predictor, an ensemble of machine learning models designed to predict the direction of stock prices based on Document Term Matrices (DTMs) constructed from the textual content in relevant news articles
 
 
-## Tech
-All the code was written in Python using Jupyter Notebooks
+## Libraries
+- Preprocessing (tokenization, stemming, etc)
+	- spaCy
+- Classifiers
+	- SciKit Learn
+		- LogisticRegression
+		- RandomForestClassifier
+		- GaussianNB
+	- NVidia XGBoost
+ - Vector/Matrix operations
+	- NumPy
+	- Pandas
 
-#### Classifiers chosen for comparison and evaluation:
+#### Classifier selection:
 - Logistic Regression
 - XGBoost
 - Random Forest
 - Naive Bayes
 
-#### Metrics compared:
-All metrics are average values from 10 fold validations
+#### Evaluation metrics:
+Results from 10-fold cross validation weighted against support
 - Accuracy
 - F1-score
 - Percision
