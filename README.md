@@ -27,6 +27,6 @@ All metrics are average values from 10 fold validations
 - [Matin Massoudi](https://github.com/Matin-M)
 - [Benjamin Bousquet](https://www.github.com/benbousquet)
 - [Adam Coates](https://github.com/adamjcoates)
-- [Zi Jia Tan](https://github.com/zijia0791)
+- [Zi Jia Tan](https://github.com/zijia07912)
 - [Ayush Rawat](https://www.github.com/)
 - [Zaid Usmani](https://www.github.com/)
